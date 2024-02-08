@@ -22,7 +22,7 @@
     fileSystems = [ "/" ];
   };
   swapDevices = [ { device = "/swap/swapfile"; } ];
-  
+
   boot = {
     supportedFilesystems = [ "ntfs" ];
 
